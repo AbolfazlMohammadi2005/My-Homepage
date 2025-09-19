@@ -1,0 +1,317 @@
+@font-face {
+  font-family: 'Roboto', sans-serif ;
+  src: url('/fonts/ROBOTO-REGULAR.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto', sans-serif ;
+  src: url('/fonts/ROBOTO-BOLD.TTF') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+.container {
+  max-width: 1200px;  
+  margin: 0 auto;     
+  padding: 0 20px;    
+}
+body {
+  margin: 0;
+  font-family: 'Roboto';
+  background-color: #121212;
+  color: #e0e0e0;
+  line-height: 1.6;
+  
+}
+.home-header{
+  background: url("../images/Image-2.jpg") no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  padding: 60px 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  min-height: 300px; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;     
+  text-align: center; 
+}
+.header-animation-1 {
+  transform: translateY(20px);
+  opacity: 0;
+  animation: fadeInUp 0.6s forwards;
+}
+.header-animation-2{
+   transform: translateY(20px);
+  opacity: 0;
+  animation: fadeInUp 0.6s forwards;
+}
+.header-animation-3{
+  transform: translateY(20px);
+  opacity: 0;
+  animation: fadeInUp 0.6s forwards;
+}
+.header-animation-4{
+  transform: translateY(20px);
+  opacity: 0;
+  animation: fadeInUp 0.6s forwards;
+}
+.header-animation-5{
+  transform: translateY(20px);
+  opacity: 0;
+  animation: fadeInUp 0.6s forwards;
+}
+.header-animation-6{
+  transform: translateY(20px);
+  opacity: 0;
+  animation: fadeInUp 0.6s forwards;
+}
+.Teaching-Assistant-header{
+    background: url("../images/Image-3.jpg") no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  padding: 60px 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  min-height: 300px; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;     
+  text-align: center; 
+}
+.projects-header{
+  background: url("../images/Image-4.jpg") no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  padding: 60px 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  min-height: 300px; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;     
+  text-align: center; 
+}
+.About-me-header{
+  background: url("../images/Image-5.jpg") no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  background-position: 0% 20%;
+  padding: 60px 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  min-height: 300px; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;     
+  text-align: center; 
+}
+.Physics-II-header{
+   background: url("../images/Image-7.jpg") no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  padding: 60px 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  min-height: 300px; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;     
+  text-align: center; 
+}
+.Analytical-Mechanics-I-header{
+  background: url("../images/Image-6.jpg") no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  padding: 60px 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  min-height: 300px; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;     
+  text-align: center; 
+}
+.bio {
+  padding: 30px;
+}
+.bio li {
+  margin-bottom: 10px;
+  color: #ccc;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+.card {
+  background: #1e1e1e;
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transform: translateY(20px);
+  opacity: 0;
+  animation: fadeInUp 0.6s forwards;
+  transition: transform 0.4s ease, box-shadow 0.4s ease, filter 0.4s ease;
+}
+
+.cards .card:nth-child(1) { animation-delay: 0.1s; }
+.cards .card:nth-child(2) { animation-delay: 0.3s; }
+.cards .card:nth-child(3) { animation-delay: 0.5s; }
+
+@keyframes fadeInUp {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+.card:hover {
+  transform: scale(1.08) translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.7);
+  filter: brightness(1.1);
+}
+.card img {
+  width: 100%;
+  height: 265px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.card:hover img {
+  transform: scale(1.05);
+}
+.card h3 {
+  margin: 10px;
+  color: #fff;
+  transition: color 0.4s ease;
+}
+.card p {
+  margin: 0 10px 15px;
+  color: #aaa;
+  transition: color 0.4s ease;
+}
+.card:hover h3,
+.card:hover p {
+  color: oklch(62.995% 0.10699 99.371);
+}
+footer {
+  background: #1e1e1e;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: #1e90ff; 
+  text-decoration: none;
+  border-bottom: 1px solid transparent; 
+  transition: color 0.3s, border-bottom 0.3s;
+  margin: 0 10px; /* فاصله بین لینک‌ها */
+}
+
+footer a:hover {
+  color: #63cdda; 
+  border-bottom: 1px solid #63cdda; 
+}
+
+
+@media (max-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+section {
+  padding: 40px 20px;
+  border-bottom: 1px solid #333;
+}
+
+section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+section a {
+  color: #1e90ff; 
+  text-decoration: none;
+  border-bottom: 1px solid transparent; 
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+section a:hover {
+  color: #63cdda; 
+  border-bottom: 1px solid #63cdda; 
+}
+
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+.exercise-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: center;
+}
+
+.exercise-table th,
+.exercise-table td {
+  border: 1px solid #444;
+  padding: 10px;
+}
+
+.exercise-table th {
+  background-color: #1e1e1e;
+  color: #ffffff; 
+}
+
+.exercise-table td {
+  color: #e0e0e0;
+}
+
+.exercise-table a {
+  color: #1e90ff;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.exercise-table a:hover {
+  color: #63cdda;
+  border-bottom: 1px solid #63cdda;
+}
+
+.exercise-table tbody tr:nth-child(even) {
+  background-color: #2a2a2a;
+}
+.exercise-table tbody tr:nth-child(odd) {
+  background-color: #1c1c1c;
+}
+
+
