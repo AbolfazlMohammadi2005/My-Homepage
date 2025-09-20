@@ -120,6 +120,20 @@ body {
   overflow: hidden;
   min-height: 300px; 
   display: flex;
+  flex-direction: column ; 
+  justify-content: center; 
+  align-items: center;     
+  text-align: center; 
+}
+.Mathematics-Physics-II-header{
+  background: url("../images/Image-8.jpg") no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  padding: 60px 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  min-height: 300px; 
+  display: flex;
   flex-direction: column; 
   justify-content: center; 
   align-items: center;     
