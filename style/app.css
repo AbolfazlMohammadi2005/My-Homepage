@@ -68,6 +68,11 @@ body {
   opacity: 0;
   animation: fadeInUp 0.6s forwards;
 }
+.header-animation-7{
+  transform: translateY(20px);
+  opacity: 0;
+  animation: fadeInUp 0.6s forwards;
+}
 .header-animation-9{
     transform: translateY(20px);
   opacity: 0;
@@ -116,6 +121,21 @@ body {
   align-items: center;     
   text-align: center; 
 }
+.General-Physics-III-header{
+   background: url("../images/Image-9.jpg") no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  background-position: 0% 20%;
+  padding: 60px 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  min-height: 300px; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;     
+  text-align: center; 
+}
 .Physics-II-header{
    background: url("../images/Image-7.jpg") no-repeat center center;
   background-size: cover;
@@ -144,20 +164,7 @@ body {
   align-items: center;     
   text-align: center; 
 }
-.Thermodynamics-I-header{
-    background: url("../images/Image-9.jpg") no-repeat center center;
-  background-size: cover;
-  color: #fff;
-  padding: 60px 20px;
-  border-radius: 12px;
-  overflow: hidden;
-  min-height: 300px; 
-  display: flex;
-  flex-direction: column; 
-  justify-content: center; 
-  align-items: center;     
-  text-align: center; 
-}
+
 .Analytical-Mechanics-I-header{
   background: url("../images/Image-6.jpg") no-repeat center center;
   background-size: cover;
@@ -208,6 +215,7 @@ body {
 .cards .card:nth-child(4) { animation-delay: 0.7s; }
 
 
+
 @keyframes fadeInUp {
   to {
     transform: translateY(0);
@@ -255,7 +263,7 @@ footer a {
   text-decoration: none;
   border-bottom: 1px solid transparent; 
   transition: color 0.3s, border-bottom 0.3s;
-  margin: 0 10px; /* فاصله بین لینک‌ها */
+  margin: 0 10px; 
 }
 
 footer a:hover {
