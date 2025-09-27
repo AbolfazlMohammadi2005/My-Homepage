@@ -38,46 +38,12 @@ body {
   align-items: center;     
   text-align: center; 
 }
-.header-animation-1 {
+.header-animation{
   transform: translateY(20px);
   opacity: 0;
   animation: fadeInUp 0.6s forwards;
 }
-.header-animation-2{
-   transform: translateY(20px);
-  opacity: 0;
-  animation: fadeInUp 0.6s forwards;
-}
-.header-animation-3{
-  transform: translateY(20px);
-  opacity: 0;
-  animation: fadeInUp 0.6s forwards;
-}
-.header-animation-4{
-  transform: translateY(20px);
-  opacity: 0;
-  animation: fadeInUp 0.6s forwards;
-}
-.header-animation-5{
-  transform: translateY(20px);
-  opacity: 0;
-  animation: fadeInUp 0.6s forwards;
-}
-.header-animation-6{
-  transform: translateY(20px);
-  opacity: 0;
-  animation: fadeInUp 0.6s forwards;
-}
-.header-animation-7{
-  transform: translateY(20px);
-  opacity: 0;
-  animation: fadeInUp 0.6s forwards;
-}
-.header-animation-9{
-    transform: translateY(20px);
-  opacity: 0;
-  animation: fadeInUp 0.6s forwards;
-}
+
 .Teaching-Assistant-header{
     background: url("../images/Image-3.jpg") no-repeat center center;
   background-size: cover;
