@@ -130,7 +130,20 @@ body {
   align-items: center;     
   text-align: center; 
 }
-
+.Thermodynamics-I-header {
+  background: url("../images/Image-10.jpg") no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  padding: 60px 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  min-height: 300px; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;     
+  text-align: center; 
+}
 .Analytical-Mechanics-I-header{
   background: url("../images/Image-6.jpg") no-repeat center center;
   background-size: cover;
@@ -179,7 +192,7 @@ body {
 .cards .card:nth-child(2) { animation-delay: 0.3s; }
 .cards .card:nth-child(3) { animation-delay: 0.5s; }
 .cards .card:nth-child(4) { animation-delay: 0.7s; }
-
+.cards .card:nth-child(5) { animation-delay: 0.9s; }
 
 
 @keyframes fadeInUp {
