@@ -231,11 +231,15 @@ body {
 .card:hover p {
   color: oklch(62.995% 0.10699 99.371);
 }
-footer {
-  background: #1e1e1e;
+.footer {
   text-align: center;
-  padding: 20px;
+  padding: 20px 0;
+  margin-top: 40px;
+  color: #555;
+  font-size: 14px;
+  border-top: 1px solid #ddd;
 }
+
 
 footer a {
   color: #1e90ff; 
@@ -246,7 +250,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #63cdda; 
+  color: #73d4e0; 
   border-bottom: 1px solid #63cdda; 
 }
 
@@ -336,4 +340,88 @@ ul li {
   background-color: #1c1c1c;
 }
 
+.contact {
+  margin-top: 40px;
+  text-align: center;
+}
 
+.contact h2 {
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.contact-btn {
+  display: block;
+  width: 260px;
+  margin: 12px auto;
+  padding: 14px 0;
+  background: #1e1e1e;
+  border-radius: 12px;
+  border: 1px solid #333;
+  text-decoration: none;
+  font-size: 16px;
+  color: #e0e0e0;
+  letter-spacing: 0.3px;
+  transition: 
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    background 0.25s ease,
+    color 0.25s ease;
+}
+
+.contact-btn:hover {
+  background: #252525;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+  color: #63cdda;
+}
+
+
+.projects-container {
+  max-width: 900px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 12px;
+  background: #fafafa;
+  transition: 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.project-card h2 {
+  margin: 0 0 10px;
+  color: #222;
+}
+
+.year {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.desc {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.links a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #0277ff;
+  font-weight: 500;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
