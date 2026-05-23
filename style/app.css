@@ -446,9 +446,6 @@ ul li {
   
   
 }
-.contact-btn:hover{
-  color: oklch(62.995% 0.10699 99.371);
-}
 
 .contact h2 {
   margin-bottom: 20px;
@@ -479,7 +476,7 @@ ul li {
   background: #252525;
   transform: translateY(-3px);
   box-shadow: 0 6px 18px rgba(0,0,0,0.5);
-  color: #63cdda;
+ color: oklch(62.995% 0.10699 99.371);
 }
 
 
