@@ -228,6 +228,20 @@ body {
   align-items: center;     
   text-align: center; 
 }
+.Welding-header{
+ background: url("../images/Image-18.jpg") no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  padding: 60px 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  min-height: 300px; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;     
+  text-align: center; 
+}
 .GR-Calculations-header{
     background: url("../images/Image-14.jpg") no-repeat center center;
   background-size: cover;
