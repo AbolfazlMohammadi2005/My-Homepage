@@ -605,3 +605,30 @@ li {
   text-decoration-color: #63cdda;
   text-underline-offset: 4px;
 }
+.section-intro {
+    width: 100%;
+    max-width: 900px;
+    min-height: 120px;
+
+    margin: 40px auto;
+    padding: 25px 35px;
+
+    text-align: center;
+
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-intro p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #f0f0f0;
+    margin: 0;
+
+    max-width: 800px;
+}
