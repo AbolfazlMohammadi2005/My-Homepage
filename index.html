@@ -4,13 +4,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Abolfazl Mohammadi Yaychi</title>
-  <link rel="stylesheet" href="style/app.css">
-  <link rel="icon" type="image/png" href="images/Image-1.jpg">
+  <meta name="description" content="Homepage of Abolfazl Mohammadi Yaychi, a physics student, teaching assistant, and developer at K. N. Toosi University of Technology, Tehran.">
+  <link rel="canonical" href="https://abolfazlmohammadiyaychi.ir/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Abolfazl Mohammadi Yaychi">
+  <meta property="og:description" content="Homepage of Abolfazl Mohammadi Yaychi, a physics student, teaching assistant, and developer at K. N. Toosi University of Technology, Tehran.">
+  <meta property="og:url" content="https://abolfazlmohammadiyaychi.ir/">
+  <meta property="og:image" content="https://abolfazlmohammadiyaychi.ir/images/Image-5.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Abolfazl Mohammadi Yaychi">
+  <meta name="twitter:description" content="Homepage of Abolfazl Mohammadi Yaychi, a physics student, teaching assistant, and developer at K. N. Toosi University of Technology, Tehran.">
+  <meta name="twitter:image" content="https://abolfazlmohammadiyaychi.ir/images/Image-5.jpg">
+  <link rel="stylesheet" href="style/app.min.css">
+  <link rel="icon" type="image/jpeg" href="images/Image-1.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Abolfazl Mohammadi Yaychi",
+    "url": "https://abolfazlmohammadiyaychi.ir/",
+    "image": "https://abolfazlmohammadiyaychi.ir/images/Image-5.jpg",
+    "jobTitle": "Physics Student & Teaching Assistant",
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "K. N. Toosi University of Technology"
+    },
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "K. N. Toosi University of Technology"
+    },
+    "sameAs": [
+      "https://github.com/AbolfazlMohammadi2005",
+      "https://www.linkedin.com/in/abolfazl--mohammadi"
+    ]
+  }
+  </script>
 </head>
 
 <body class="container">
-
-    <header class="home-header header-animation">
+  <header class="site-topbar">
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html" data-nav="home">Home</a>
+      <a href="pages/Teaching-Assistant.html" data-nav="teaching">Teaching</a>
+      <a href="pages/projects.html" data-nav="projects">Projects</a>
+      <a href="pages/Research-Publications.html" data-nav="publications">Publications</a>
+      <a href="pages/About-me.html" data-nav="about">About</a>
+    </nav>
+    <div class="site-toggles">
+      <button id="theme-toggle" class="toggle-btn" type="button" aria-label="Toggle theme">
+        <span class="icon-dark">🌙</span><span class="icon-light">☀️</span>
+      </button>
+    </div>
+  </header>
+<header class="home-header header-animation">
       <h1>Homepage of</h1>
       <h2>Abolfazl Mohammadi Yaychi</h2>
     </header>
@@ -27,25 +73,37 @@
 
       <section class="cards">
         <a href="pages/Teaching-Assistant.html" class="card">
-          <img src="images/Image-3.jpg" alt="Teaching Assistant">
+          <picture>
+            <source srcset="images/Image-3.webp" type="image/webp">
+            <img src="images/Image-3.jpg" alt="Physics equations on a chalkboard, mechanics and dynamics formulas" loading="lazy" decoding="async">
+          </picture>
           <h3>Teaching Assistant</h3>
           <p>My responsibilities as a TA, preparing lecture notes, supporting students...</p>
         </a>
 
         <a href="pages/About-me.html" class="card">
-          <img src="images/Image-5.jpg" alt="About me">
+          <picture>
+            <source srcset="images/Image-5.webp" type="image/webp">
+            <img src="images/Image-5.jpg" alt="Abolfazl outdoors in the snow, wearing a winter coat and beanie" loading="lazy" decoding="async">
+          </picture>
           <h3>About Me</h3>
           <p>A short story about me.</p>
         </a>
 
         <a href="pages/projects.html" class="card">
-          <img src="images/Image-4.jpg" alt="Projects">
+          <picture>
+            <source srcset="images/Image-4.webp" type="image/webp">
+            <img src="images/Image-4.jpg" alt="Digital illustration of an atom with glowing electron orbits" loading="lazy" decoding="async">
+          </picture>
           <h3>Projects</h3>
           <p>My individual and group projects.</p>
         </a>
          <a href="pages/Research-Publications.html" class="card">
-          <img src="images/Image-20.png" alt="Projects">
-          <h3>Research & Publications</h3>
+          <picture>
+            <source srcset="images/Image-20.webp" type="image/webp">
+            <img src="images/Image-20.jpg" alt="The word Research highlighted in green in a dictionary" loading="lazy" decoding="async">
+          </picture>
+          <h3>Research &amp; Publications</h3>
           <p>Journals and articles I have worked on individually or in groups.</p>
         </a>
       </section>
@@ -56,5 +114,6 @@
 </footer>
 
 
+<script src="style/site-toggles.js" defer></script>
 </body>
 </html>
