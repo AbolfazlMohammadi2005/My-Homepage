@@ -488,6 +488,40 @@ button:focus-visible {
   align-items: center;     
   text-align: center; 
 }
+.QFT-Calculations-header{
+    background-image: url("../images/Image-21.jpg");
+  background-image: image-set(url("../images/Image-21.webp") type("image/webp"), url("../images/Image-21.jpg") type("image/jpeg"));
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #fff;
+  padding: 60px 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  min-height: 300px; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;     
+  text-align: center; 
+}
+.Cosmology-Calculations-header{
+    background-image: url("../images/Image-22.jpg");
+  background-image: image-set(url("../images/Image-22.webp") type("image/webp"), url("../images/Image-22.jpg") type("image/jpeg"));
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #fff;
+  padding: 60px 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  min-height: 300px; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;     
+  text-align: center; 
+}
 .Cpp-Odyssey{
     background-image: url("../images/Image-17.jpg");
   background-image: image-set(url("../images/Image-17.webp") type("image/webp"), url("../images/Image-17.jpg") type("image/jpeg"));
