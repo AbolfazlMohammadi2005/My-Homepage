@@ -282,6 +282,23 @@ button:focus-visible {
   align-items: center;     
   text-align: center; 
 }
+.Mathematics-Physics-I-header{
+  background-image: url("../images/Image-23.jpg");
+  background-image: image-set(url("../images/Image-23.webp") type("image/webp"), url("../images/Image-23.jpg") type("image/jpeg"));
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #fff;
+  padding: 60px 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  min-height: 300px; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;     
+  text-align: center; 
+}
 .Mathematics-Physics-II-header{
   background-image: url("../images/Image-8.jpg");
   background-image: image-set(url("../images/Image-8.webp") type("image/webp"), url("../images/Image-8.jpg") type("image/jpeg"));
