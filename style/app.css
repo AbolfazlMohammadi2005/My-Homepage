@@ -557,6 +557,24 @@ button:focus-visible {
   text-align: center; 
 
 }
+.C-Odyssey{
+    background-image: url("../images/Image-24.jpg");
+  background-image: image-set(url("../images/Image-24.webp") type("image/webp"), url("../images/Image-24.jpg") type("image/jpeg"));
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #fff;
+  padding: 60px 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  min-height: 300px; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;     
+  text-align: center; 
+
+}
 .bio {
   padding: 30px;
 }
