@@ -3,21 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Microcontroller Odyssey - Abolfazl Mohammadi Yaychi</title>
-  <meta name="description" content="A hands-on journey through AVR (ATmega32) microcontroller programming in C, from blinking an LED to interrupts, timers, ADC and UART serial communication.">
+
+  <meta name="description" content="Microcontroller Odyssey is a structured AVR microcontroller programming project in C, featuring 13 chapters on ATmega32, digital I/O, functions, pointers, LCD, interrupts, timers, ADC, and USART, with practical examples and exercises.">
+
   <link rel="canonical" href="https://abolfazlmohammadiyaychi.ir/pages/Microcontroller%20Odyssey.html">
+
   <meta property="og:type" content="website">
   <meta property="og:title" content="Microcontroller Odyssey - Abolfazl Mohammadi Yaychi">
-  <meta property="og:description" content="A hands-on journey through AVR (ATmega32) microcontroller programming in C, from blinking an LED to interrupts, timers, ADC and UART serial communication.">
+  <meta property="og:description" content="A chapter-by-chapter journey through AVR (ATmega32) microcontroller programming in C, from digital output and pointers to interrupts, timers, ADC, and USART.">
   <meta property="og:url" content="https://abolfazlmohammadiyaychi.ir/pages/Microcontroller%20Odyssey.html">
   <meta property="og:image" content="https://abolfazlmohammadiyaychi.ir/images/Image-25.jpg">
+
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Microcontroller Odyssey - Abolfazl Mohammadi Yaychi">
-  <meta name="twitter:description" content="A hands-on journey through AVR (ATmega32) microcontroller programming in C, from blinking an LED to interrupts, timers, ADC and UART serial communication.">
+  <meta name="twitter:description" content="Learn AVR microcontroller programming in C through 13 chapters of practical examples and exercises using the ATmega32.">
   <meta name="twitter:image" content="https://abolfazlmohammadiyaychi.ir/images/Image-25.jpg">
+
   <link rel="stylesheet" href="../style/app.min.css">
-  <link rel="icon" type="image/jpeg" href="../images/Image-1.jpg"></head>
+  <link rel="icon" type="image/jpeg" href="../images/Image-1.jpg">
+</head>
+
 <body class="container">
+
   <header class="site-topbar">
     <nav class="site-nav" aria-label="Main navigation">
       <a href="../index.html" data-nav="home">Home</a>
@@ -26,64 +35,117 @@
       <a href="../pages/Research-Publications.html" data-nav="publications">Publications</a>
       <a href="../pages/About-me.html" data-nav="about">About</a>
     </nav>
+
     <div class="site-toggles">
       <button id="theme-toggle" class="toggle-btn" type="button" aria-label="Toggle theme">
-        <span class="icon-dark">🌙</span><span class="icon-light">☀️</span>
+        <span class="icon-dark">🌙</span>
+        <span class="icon-light">☀️</span>
       </button>
     </div>
   </header>
-<header class="Microcontroller-Odyssey header-animation">
+
+  <header class="Microcontroller-Odyssey header-animation">
     <h1>Microcontroller Odyssey</h1>
   </header>
-  
+
   <main class="project-page">
     <section class="project-description">
+
       <h2>About This Project</h2>
+
       <p>
-        🚀 <strong>Microcontroller Odyssey</strong> – From blinking an LED to talking over UART: a hands-on journey through AVR microcontroller programming in C.
-        This is Part 3 of the Odyssey trilogy (C Odyssey → C++ Odyssey → Microcontroller Odyssey). It is a chapter-by-chapter collection of ATmega32 programs written for CodeVisionAVR, with book examples (EX) and extra problem sets (PS) for every chapter.
+        <strong>Microcontroller Odyssey</strong> is a structured,
+        hands-on learning project dedicated to AVR microcontroller
+        programming in C. Using the ATmega32 as its target platform,
+        the project progresses from fundamental digital I/O operations
+        to peripheral interfacing and interrupt-driven programming.
       </p>
 
-      <p><strong>📂 Repository Structure :</strong></p>
-      <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px 20px; margin: 10px 0;">
-        <div>01 - Digital output &amp; bit operations</div>
-        <div>02 - Shifts, arrays, 7-segment &amp; simple state machines</div>
-        <div>03 - Loops &amp; strings</div>
-        <div>04 - Functions, prototypes, multi-file projects, sprintf/puts</div>
-        <div>05 - Storage classes &amp; static</div>
-        <div>06 - Pointers &amp; the LCD library</div>
-        <div>07 - enum &amp; finite state machines</div>
-        <div>08 - struct, union &amp; bit-fields</div>
-        <div>09 - Digital input, debouncing &amp; keypad</div>
-        <div>10 - External interrupts</div>
-        <div>11 - Timers/counters, CTC &amp; PWM</div>
-        <div>12 - Analog-to-digital converter (ADC)</div>
-        <div>13 - USART serial communication</div>
+      <p>
+        This project is the third part of the Odyssey trilogy:
+        <strong>C Odyssey → C++ Odyssey → Microcontroller Odyssey</strong>.
+        It brings C programming concepts into embedded systems through
+        practical, chapter-by-chapter programs developed for CodeVisionAVR,
+        with Proteus simulation or real hardware used for testing.
+      </p>
+
+      <p>
+        Each chapter organizes the relevant programming concepts and
+        microcontroller features into practical examples and exercises,
+        helping learners connect the fundamentals of C with real embedded
+        applications.
+      </p>
+
+      <p><strong>📂 Repository Structure</strong></p>
+
+      <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 20px; margin: 10px 0;">
+
+        <div>01 - Digital Output</div>
+        <div>02 - Shift Operations, Arrays &amp; 7-Segment Displays</div>
+        <div>03 - Loops &amp; Strings</div>
+        <div>04 - Functions &amp; Multi-File Projects</div>
+        <div>05 - Storage Classes &amp; Static Variables</div>
+        <div>06 - Pointers &amp; LCD Interfacing</div>
+        <div>07 - Enumerations &amp; Finite State Machines</div>
+        <div>08 - Structures, Unions &amp; Bit-Fields</div>
+        <div>09 - Digital Input, Debouncing &amp; Keypads</div>
+        <div>10 - External Interrupts</div>
+        <div>11 - Timers, Counters, CTC &amp; PWM</div>
+        <div>12 - Analog-to-Digital Conversion (ADC)</div>
+        <div>13 - USART Serial Communication</div>
+
       </div>
 
       <p>
-        <strong>⚙️ Prerequisites:</strong> CodeVisionAVR, Proteus (or real hardware), ATmega32 at 8 MHz, basic knowledge of C.
+        <strong>⚙️ Tools &amp; Requirements:</strong>
+        CodeVisionAVR, Proteus or compatible physical hardware,
+        an ATmega32 microcontroller running at 8 MHz, and basic
+        knowledge of the C programming language.
       </p>
+
       <p>
-        <strong>📜 License:</strong> MIT License – free to use for learning and teaching purposes.
+        <strong>🎯 Learning Objectives:</strong>
+        Understand microcontroller I/O, write modular C programs,
+        interface displays and input devices, configure timers and
+        interrupts, read analog signals using the ADC, and communicate
+        through USART.
+      </p>
+
+      <p>
+        <strong>📜 License:</strong>
+        MIT License. See the repository's LICENSE file for the
+        applicable terms of use.
       </p>
 
       <div class="tech-stack">
         <span>C</span>
         <span>AVR</span>
         <span>ATmega32</span>
+        <span>CodeVisionAVR</span>
+        <span>Proteus</span>
+        <span>Embedded Systems</span>
       </div>
 
       <div class="project-links">
-        <a href="https://github.com/AbolfazlMohammadi2005/Microcontroller-Odyssey" target="_blank">
+        <a href="https://github.com/AbolfazlMohammadi2005/Microcontroller-Odyssey"
+           target="_blank"
+           rel="noopener noreferrer">
           🔗 GitHub Repository
         </a>
       </div>
 
       <div class="project-meta">
-        <p><strong>Project Duration:</strong> <span>2026/09/27 – 2026/10/27</span></p>
-        <p><strong>Status:</strong> <span>Completed</span></p>
+        <p>
+          <strong>Project Duration:</strong>
+          <span>September 27, 2026 – October 27, 2026</span>
+        </p>
+
+        <p>
+          <strong>Status:</strong>
+          <span>Completed</span>
+        </p>
       </div>
+
     </section>
   </main>
 
@@ -91,6 +153,7 @@
     <p>© 2026 Abolfazl Mohammadi Yaychi — All rights reserved.</p>
   </footer>
 
-<script src="../style/site-toggles.js" defer></script>
+  <script src="../style/site-toggles.js" defer></script>
+
 </body>
 </html>
