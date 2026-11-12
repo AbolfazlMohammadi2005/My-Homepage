@@ -5,17 +5,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Page Not Found - Abolfazl Mohammadi Yaychi</title>
   <meta name="robots" content="noindex">
-  <link rel="stylesheet" href="style/app.min.css">
-  <link rel="icon" type="image/jpeg" href="images/Image-1.jpg">
+  <link rel="stylesheet" href="/style/app.min.css?v=20261112">
+  <link rel="icon" type="image/jpeg" href="/images/Image-1.jpg">
+  <script>
+  (function () {
+    var map = {
+      "/pages/Academic Coding.html": "/pages/Academic-Coding.html",
+      "/pages/Analytical Mechanics I.html": "/pages/Analytical-Mechanics-I.html",
+      "/pages/C Odyssey.html": "/pages/C-Odyssey.html",
+      "/pages/C++ Odyssey.html": "/pages/CPP-Odyssey.html",
+      "/pages/Game Development.html": "/pages/Game-Development.html",
+      "/pages/General Physics-III.html": "/pages/General-Physics-III.html",
+      "/pages/General Physics-IV.html": "/pages/General-Physics-IV.html",
+      "/pages/Microcontroller Odyssey.html": "/pages/Microcontroller-Odyssey.html",
+      "/pages/Physics II.html": "/pages/General-Physics-II.html",
+      "/pages/Teaching-Assistant.html": "/pages/Teaching.html",
+      "/files/Analytical-Mechanics-I/Resources/Classical-Dynamics-of-Particles-and-Systems-Thornton .pdf": "/files/Analytical-Mechanics-I/Resources/Classical-Dynamics-of-Particles-and-Systems-Thornton.pdf",
+      "/files/Analytical-Mechanics-I/Resources/Kleppner- 2ed.pdf": "/files/Analytical-Mechanics-I/Resources/Kleppner-2ed.pdf",
+      "/files/General-Physics-II/Grade/General-Physics-II -4032.xlsx": "/files/General-Physics-II/Grade/General-Physics-II-4032.xlsx",
+      "/files/General-Physics-IV/Grade/General Physics 4.xlsx": "/files/General-Physics-IV/Grade/General-Physics-4.xlsx",
+      "/files/General-Physics-II/Resources/Fundamentals_of_Physics_by_David_Halliday,_Robert_Resnick,_Jearl.pdf": "/files/General-Physics-II/Resources/Fundamentals-of-Physics-Halliday-Resnick-Walker.pdf",
+      "/files/General-Physics-III/Resources/Fundamentals_of_Physics_by_David_Halliday,_Robert_Resnick,_Jearl.pdf": "/files/General-Physics-III/Resources/Fundamentals-of-Physics-Halliday-Resnick-Walker.pdf",
+      "/files/Mathematics-Physics-I/Resources/Sadri_Hassani_auth_Mathematical_Physics_A_Modern_.pdf": "/files/Mathematics-Physics-I/Resources/Sadri-Hassani-Mathematical-Physics-A-Modern.pdf",
+      "/files/Mathematics-Physics-II/Resources/Sadri_Hassani_auth_Mathematical_Physics_A_Modern_.pdf": "/files/Mathematics-Physics-II/Resources/Sadri-Hassani-Mathematical-Physics-A-Modern.pdf",
+      "/files/Thermodynamics-I/Resources/Blundell .pdf": "/files/Thermodynamics-I/Resources/Blundell.pdf",
+      "/files/Thermodynamics-I/Resources/M_W_Zemansky,_Richard_H_Dittman_Heat_and_Thermodynamics_McGraw_Hill.pdf": "/files/Thermodynamics-I/Resources/M-W-Zemansky-Richard-H-Dittman-Heat-and-Thermodynamics-McGraw-Hill.pdf",
+      "/files/Research-Publications/f(R)-Gravity.pdf": "/files/Research-Publications/fR-Gravity.pdf",
+      "/files/Research-Publications/Bracket-Paeiz-1405.pdf": "/files/Research-Publications/Braket-Paeiz-1405.pdf"
+    };
+    var path;
+    try { path = decodeURIComponent(window.location.pathname); } catch (e) { return; }
+    if (map[path]) { window.location.replace(map[path] + window.location.search + window.location.hash); }
+  })();
+  </script>
 </head>
 <body class="container">
   <header class="site-topbar">
     <nav class="site-nav" aria-label="Main navigation">
-      <a href="index.html" data-nav="home">Home</a>
-      <a href="pages/Teaching-Assistant.html" data-nav="teaching">Teaching</a>
-      <a href="pages/projects.html" data-nav="projects">Projects</a>
-      <a href="pages/Research-Publications.html" data-nav="publications">Publications</a>
-      <a href="pages/About-me.html" data-nav="about">About</a>
+      <a href="/index.html" data-nav="home">Home</a>
+      <a href="/pages/Teaching.html" data-nav="teaching">Teaching</a>
+      <a href="/pages/projects.html" data-nav="projects">Projects</a>
+      <a href="/pages/Research-Publications.html" data-nav="publications">Publications</a>
+      <a href="/pages/About-me.html" data-nav="about">About</a>
     </nav>
     <div class="site-toggles">
       <button id="theme-toggle" class="toggle-btn" type="button" aria-label="Toggle theme">
@@ -28,13 +59,13 @@
     <p class="not-found-code">404</p>
     <h1>Page Not Found</h1>
     <p>The page you're looking for doesn't exist or may have been moved.</p>
-    <a class="contact-btn" href="index.html">Back to Homepage</a>
+    <a class="contact-btn" href="/index.html">Back to Homepage</a>
   </main>
 
   <footer class="footer">
     <p>© 2026 Abolfazl Mohammadi Yaychi — All rights reserved.</p>
   </footer>
 
-  <script src="style/site-toggles.js" defer></script>
+  <script src="/style/site-toggles.js" defer></script>
 </body>
 </html>

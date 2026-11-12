@@ -9,7 +9,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://abolfazlmohammadiyaychi.ir/pages/Teaching-Assistant.html</loc>
+    <loc>https://abolfazlmohammadiyaychi.ir/pages/Teaching.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -25,11 +25,11 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://abolfazlmohammadiyaychi.ir/pages/Game%20Development.html</loc>
+    <loc>https://abolfazlmohammadiyaychi.ir/pages/Game-Development.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://abolfazlmohammadiyaychi.ir/pages/Academic%20Coding.html</loc>
+    <loc>https://abolfazlmohammadiyaychi.ir/pages/Academic-Coding.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -37,15 +37,15 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://abolfazlmohammadiyaychi.ir/pages/C%2B%2B%20Odyssey.html</loc>
+    <loc>https://abolfazlmohammadiyaychi.ir/pages/CPP-Odyssey.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://abolfazlmohammadiyaychi.ir/pages/C%20Odyssey.html</loc>
+    <loc>https://abolfazlmohammadiyaychi.ir/pages/C-Odyssey.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://abolfazlmohammadiyaychi.ir/pages/Microcontroller%20Odyssey.html</loc>
+    <loc>https://abolfazlmohammadiyaychi.ir/pages/Microcontroller-Odyssey.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -61,15 +61,15 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://abolfazlmohammadiyaychi.ir/pages/Analytical%20Mechanics%20I.html</loc>
+    <loc>https://abolfazlmohammadiyaychi.ir/pages/Analytical-Mechanics-I.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://abolfazlmohammadiyaychi.ir/pages/General%20Physics-III.html</loc>
+    <loc>https://abolfazlmohammadiyaychi.ir/pages/General-Physics-III.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://abolfazlmohammadiyaychi.ir/pages/General%20Physics-IV.html</loc>
+    <loc>https://abolfazlmohammadiyaychi.ir/pages/General-Physics-IV.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -81,7 +81,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://abolfazlmohammadiyaychi.ir/pages/Physics%20II.html</loc>
+    <loc>https://abolfazlmohammadiyaychi.ir/pages/General-Physics-II.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -95,5 +95,13 @@
   <url>
     <loc>https://abolfazlmohammadiyaychi.ir/pages/Mathematics-Lecture-Notes.html</loc>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://abolfazlmohammadiyaychi.ir/pages/QFT-Calculations.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://abolfazlmohammadiyaychi.ir/pages/Cosmology-Calculations.html</loc>
+    <priority>0.6</priority>
   </url>
 </urlset>
