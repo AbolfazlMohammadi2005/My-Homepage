@@ -212,6 +212,40 @@ button:focus-visible {
   align-items: center;     
   text-align: center; 
 }
+.Geometry-Notes-header{
+    background-image: url("../images/Image-27.jpg");
+  background-image: image-set(url("../images/Image-27.webp") type("image/webp"), url("../images/Image-27.jpg") type("image/jpeg"));
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #fff;
+  padding: 60px 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  min-height: 300px; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;     
+  text-align: center; 
+}
+.Mathematics-Notes-header{
+    background-image: url("../images/Image-26.jpg");
+  background-image: image-set(url("../images/Image-26.webp") type("image/webp"), url("../images/Image-26.jpg") type("image/jpeg"));
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #fff;
+  padding: 60px 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  min-height: 300px; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;     
+  text-align: center; 
+}
 .projects-header{
   background-image: url("../images/Image-4.jpg");
   background-image: image-set(url("../images/Image-4.webp") type("image/webp"), url("../images/Image-4.jpg") type("image/jpeg"));
