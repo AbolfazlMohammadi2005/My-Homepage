@@ -93,14 +93,7 @@ li{margin-bottom:10px}
 .exercise-table a:hover{color:var(--accent);border-bottom:1px solid var(--accent)}
 .exercise-table tr:nth-child(even){background-color:var(--table-row-even)}
 .exercise-table tr:nth-child(odd){background-color:var(--table-row-odd)}
-.notes-list{list-style:none;padding:0;margin:20px 0}
-.notes-list li{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:0;padding:14px 18px;border:1px solid var(--border-strong);border-bottom-width:0;background-color:var(--table-row-odd)}
-.notes-list li:nth-child(even){background-color:var(--table-row-even)}
-.notes-list li:first-child{border-radius:10px 10px 0 0}
-.notes-list li:last-child{border-bottom-width:1px;border-radius:0 0 10px 10px}
-.notes-list .note-title{color:var(--text);font-size:1.05rem}
-.notes-list a.download-btn{flex-shrink:0;border-bottom:1px solid var(--border-strong)}
-.notes-list .coming-soon{flex-shrink:0;color:var(--text-muted-2);font-style:italic}
+.exercise-table .coming-soon{color:var(--text-muted-2);font-style:italic}
 .contact{margin-top:40px;text-align:center}
 .contact h2{margin-bottom:20px;color:var(--text-strong);font-size:24px}
 .contact-btn{display:block;width:260px;margin:12px auto;padding:14px 0;background:var(--panel-bg);border-radius:12px;border:1px solid var(--border);text-decoration:none;font-size:16px;color:var(--text);letter-spacing:0.3px;transition:transform 0.25s ease,box-shadow 0.25s ease,background 0.25s ease,color 0.25s ease}
