@@ -508,6 +508,11 @@ li {
   background-color: var(--table-row-odd);
 }
 
+.exercise-table .coming-soon {
+  color: var(--text-muted-2);
+  font-style: italic;
+}
+
 .contact {
   margin-top: 40px;
   text-align: center;

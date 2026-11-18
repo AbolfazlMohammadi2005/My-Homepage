@@ -93,6 +93,7 @@ li{margin-bottom:10px}
 .exercise-table a:hover{color:var(--accent);border-bottom:1px solid var(--accent)}
 .exercise-table tr:nth-child(even){background-color:var(--table-row-even)}
 .exercise-table tr:nth-child(odd){background-color:var(--table-row-odd)}
+.exercise-table .coming-soon{color:var(--text-muted-2);font-style:italic}
 .contact{margin-top:40px;text-align:center}
 .contact h2{margin-bottom:20px;color:var(--text-strong);font-size:24px}
 .contact-btn{display:block;width:260px;margin:12px auto;padding:14px 0;background:var(--panel-bg);border-radius:12px;border:1px solid var(--border);text-decoration:none;font-size:16px;color:var(--text);letter-spacing:0.3px;transition:transform 0.25s ease,box-shadow 0.25s ease,background 0.25s ease,color 0.25s ease}
