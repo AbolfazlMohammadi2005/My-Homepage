@@ -508,7 +508,49 @@ li {
   background-color: var(--table-row-odd);
 }
 
-.exercise-table .coming-soon {
+.notes-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.notes-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 0;
+  padding: 14px 18px;
+  border: 1px solid var(--border-strong);
+  border-bottom-width: 0;
+  background-color: var(--table-row-odd);
+}
+
+.notes-list li:nth-child(even) {
+  background-color: var(--table-row-even);
+}
+
+.notes-list li:first-child {
+  border-radius: 10px 10px 0 0;
+}
+
+.notes-list li:last-child {
+  border-bottom-width: 1px;
+  border-radius: 0 0 10px 10px;
+}
+
+.notes-list .note-title {
+  color: var(--text);
+  font-size: 1.05rem;
+}
+
+.notes-list a.download-btn {
+  flex-shrink: 0;
+  border-bottom: 1px solid var(--border-strong);
+}
+
+.notes-list .coming-soon {
+  flex-shrink: 0;
   color: var(--text-muted-2);
   font-style: italic;
 }
