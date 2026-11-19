@@ -508,9 +508,27 @@ li {
   background-color: var(--table-row-odd);
 }
 
-.exercise-table .coming-soon {
-  color: var(--text-muted-2);
-  font-style: italic;
+.notes-list {
+  list-style: disc;
+  padding-left: 28px;
+  margin: 16px 0;
+}
+
+.notes-list li {
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+}
+
+.notes-list a {
+  color: #1e90ff;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.notes-list a:hover {
+  color: var(--accent);
+  border-bottom: 1px solid var(--accent);
 }
 
 .contact {
